@@ -1,0 +1,24 @@
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*******************************EFECTO_PRECIOS_EN_MOVIMIENTO_0004 ********************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+
+#EPM0004-prices-container {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.EPM0004-precio {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 20px;
+    vertical-align: middle; /* Asegurar que el texto esté alineado con la imagen */
+}
+
+.EPM0004-precio img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle; /* Asegurar que la imagen esté alineada con el texto */
+}
